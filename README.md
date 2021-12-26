@@ -8,7 +8,7 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、EC-C
 
 お使いのPCにDockerをインストールしておいてください。
 
-<p><a href="https://laraweb.net/environment/6402/" target="_blank">「Docker for Windows」をインストール]</a></p>
+<p><a href="https://laraweb.net/environment/6402/" target="_blank">「Docker for Windows」をインストール</a></p>
 
 ## 使い方
 
