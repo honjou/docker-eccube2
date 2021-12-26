@@ -14,6 +14,18 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、EC-C
 
 ```
 $ git clone https://github.com/honjou/doker_eccube2.git .
+```
+
+以下のページから ec-cube2.17 のソースをダウンロードしてください。
+
+[EC-CUBE 2.17系（公式）](https://github.com/EC-CUBE/ec-cube2)
+
+ダウンロードしたデータは src/eccube2 フォルダに格納してください。
+
+格納したら、以下のコマンドを実行すると、ローカルでプレビューできます。
+
+```
+$ git clone https://github.com/honjou/doker_eccube2.git .
 $ docker-compose build
 $ docker-compose up -d
 ```
@@ -26,7 +38,7 @@ $ docker-compose up -d
 ec-cube2
 　┣ docker（docker本体）
 　┣ src（laravel本体）
-    ┗ eccube2 ← ※EC-CUBE2.17.2のデータを格納
+    ┗ eccube2 ← ※EC-CUBE2.17 のデータを格納
 　┣ .gitignore
 　┣ docker-compose.yml
 　┣ README.md
