@@ -8,7 +8,7 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、EC-C
 
 お使いのPCにDockerをインストールしておいてください。
 
-[「Docker for Windows」をインストール](https://laraweb.net/environment/6402/){:target="_blank"}
+<p><a href="https://laraweb.net/environment/6402/" target="_blank">「Docker for Windows」をインストール]</a></p>
 
 ## 使い方
 
@@ -18,7 +18,7 @@ $ git clone https://github.com/honjou/doker_eccube2.git .
 
 以下のページから ec-cube2.17 のソースをダウンロードしてください。
 
-[EC-CUBE 2.17系（公式）](https://github.com/EC-CUBE/ec-cube2){:target="_blank"}
+<p><a href="https://github.com/EC-CUBE/ec-cube2" target="_blank">EC-CUBE 2.17系（公式）</a></p>
 
 ダウンロードしたデータは src/eccube2 フォルダに格納してください。
 
@@ -29,8 +29,7 @@ $ git clone https://github.com/honjou/doker_eccube2.git .
 $ docker-compose build
 $ docker-compose up -d
 ```
-
-詳細は[こちら](#)
+<p>詳細は<a href="#" target="_blank">こちら</a></p>
 
 ## ディレクトリ構造
 
