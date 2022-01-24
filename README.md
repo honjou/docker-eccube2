@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/honjou/docker_practice/images/logo.png"></p>
 
-# EC-CUBE2 ローカル開発環境（Docker）
+# EC-CUBE2 ローカル開発環境（MySQL版）
 
 Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、EC-CUBE2 の新規プロジェクトをお手軽るに構築できます。
 
@@ -13,7 +13,7 @@ Docker（docker-compose）でLAMP環境（PHP/Apache/MySQL）を構築し、EC-C
 ## 使い方
 
 ```
-$ git clone https://github.com/honjou/doker_eccube2.git .
+$ git clone https://github.com/honjou/docker-eccube2.git .
 ```
 
 以下のページから ec-cube2.17 のソースをダウンロードしてください。
@@ -36,7 +36,7 @@ $ docker-compose up -d
 ```
 ec-cube2
 　┣ docker（docker本体）
-　┣ src（laravel本体）
+　┣ src（EC-CUBE本体）
     ┗ eccube2 ← ※EC-CUBE2.17 のデータを格納
 　┣ .gitignore
 　┣ docker-compose.yml
@@ -46,7 +46,7 @@ ec-cube2
 ## コンテナ構成
 
 ```
-　┣ app（laravelを動かすコンテナ）
+　┣ app（EC-CUBEを動かすコンテナ）
 　　　・Apache:2
 　　　・PHP:7.4
 　　　・Composer:2.0.9
