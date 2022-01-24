@@ -18,18 +18,18 @@ $ git clone https://github.com/honjou/doker_eccube2.git .
 
 以下のページから ec-cube2.17 のソースをダウンロードしてください。
 
-<p><a href="https://github.com/EC-CUBE/ec-cube2" target="_blank">EC-CUBE 2.17系（公式）</a></p>
+<p><a href="https://github.com/EC-CUBE/ec-cube2/releases/tag/eccube-2.17.2" target="_blank">EC-CUBE 2.17系（公式）</a></p>
 
 ダウンロードしたデータは src/eccube2 フォルダに格納してください。
 
 格納したら、以下のコマンドを実行すると、ローカルでプレビューできます。
 
 ```
-$ git clone https://github.com/honjou/doker_eccube2.git .
+$ git clone https://github.com/honjou/docker-eccube2.git .
 $ docker-compose build
 $ docker-compose up -d
 ```
-<p>詳細は<a href="#" target="_blank">こちら</a></p>
+<p>詳細は<a href="https://laraweb.net/surrounding/10114/" target="_blank">こちら</a></p>
 
 ## ディレクトリ構造
 
